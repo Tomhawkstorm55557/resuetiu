@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/style": "^0.8.0",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.21",
+    "@react-three/drei": "^9.108.1",
+    "@react-three/fiber": "^8.16.8",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -17,11 +24,23 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "@adobe/css-tools": "4.4.0",
+    "@alloc/quick-lru": "5.2.0",
+    "@ampproject/remapping": "2.3.0",
+    "@babel/code-frame": "7.24.7",
+    "@babel/compat-data": "7.24.7",
+    "@babel/core": "7.24.7",
+    "@babel/eslint-parser": "7.24.7",
+    "@babel/generator": "7.24.7",
+    "@babel/helper-annotate-as-pure": "7.24.7",
+    "@babel/helper-builder-binary-assignment-operator-visitor": "7.24.7",
+    "@babel/helper-compilation-targets": "7.24.7",
+    "@babel/helper-create-class-features-plugin": "7.24.7",
+    "@babel/helper-create-regexp-features-plugin": "7.24.7",
+    "@babel/helper-define-polyfill-provider": "0.6.2",
+    "@babel/helper-environment-visitor": "7.24.7",
+    "@babel/helper-function-name": "7.24.7"
   },
   "browserslist": {
     "production": [
